@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container">
+            <a href="" class="navbar-brand">LOGO</a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav mx-auto">
+                    <li><a href="" class="nav-link">Home</a></li>
+                    <li><a href="" class="nav-link">About</a></li>
+                    <li><a href="" class="nav-link">Portfolio</a></li>
+                    <li><a href="" class="nav-link">Gallery</a></li>
+                    <li><a href="" class="nav-link">Notice</a></li>
+                    <li><a href="" class="nav-link">Contact</a></li>
+                    <li class="dropdown">
+                        <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Service</a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a href="" class="dropdown-item">Service One</a></li>
+                            <li><a href="" class="dropdown-item">Service Two</a></li>
+                            <li><a href="" class="dropdown-item">Service Three</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li><a href="#loginModal" data-bs-toggle="modal" class="nav-link">LOG in</a></li>
+                    <li><a href="" class="nav-link">Sign up</a></li>
+                </ul>
+            </div>
+    </div>
+    </nav>
+    
+    <div id="slider" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+        <div class="carousel-indicators">
+            <button data-bs-target="#slider" data-bs-slide-to="0" class="active"></button>
+            <button data-bs-target="#slider" data-bs-slide-to="1"></button>
+            <button data-bs-target="#slider" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/h1.jpg" alt="" class="d-block w-100 h-500"/>
+                <div class="carousel-caption my-caption">
+                    <h1>this is caption one</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero temporibus nostrum libero quo ea iusto, mollitia voluptates error vitae. Fugit corporis ipsam tempore officiis similique aperiam. Consequatur voluptas adipisci cum.</p>
+                    <a href="" class="btn btn-success">Read more..</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/h2.jpg" alt="" class="d-block w-100 h-500"/>
+                <div class="carousel-caption my-caption">
+                    <h1>this is caption one</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero temporibus nostrum libero quo ea iusto, mollitia voluptates error vitae. Fugit corporis ipsam tempore officiis similique aperiam. Consequatur voluptas adipisci cum.</p>
+                    <a href="" class="btn btn-success">Read more..</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/h3.jpg" alt="" class="d-block w-100 h-500"/>
+                <div class="carousel-caption my-caption">
+                    <h1>this is caption one</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero temporibus nostrum libero quo ea iusto, mollitia voluptates error vitae. Fugit corporis ipsam tempore officiis similique aperiam. Consequatur voluptas adipisci cum.</p>
+                    <a href="" class="btn btn-success">Read more..</a>
+                </div>
+            </div>
+        <a href="#slider" class="carousel-control-prev" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#slider" class="carousel-control-next" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+        </div>
+    </div>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">This is card header</div>
+                        <div class="card-body">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit dolor quod quae illum veritatis expedita nobis, neque optio, dolores incidunt ex perferendis quaerat totam accusantium corporis odit saepe harum. Illo.
+                        </div>
+                        <div class="card-footer">This is card footer</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">This is card header</div>
+                        <div class="card-body">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit dolor quod quae illum veritatis expedita nobis, neque optio, dolores incidunt ex perferendis quaerat totam accusantium corporis odit saepe harum. Illo.
+                        </div>
+                        <div class="card-footer">This is card footer</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">This is card header</div>
+                        <div class="card-body">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit dolor quod quae illum veritatis expedita nobis, neque optio, dolores incidunt ex perferendis quaerat totam accusantium corporis odit saepe harum. Illo.
+                        </div>
+                        <div class="card-footer">This is card footer</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="bg-light py-5">
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow">
+                            <img src="img/img-1001.webp" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nemo laborum cumque unde iste tempore.</p>
+                                <hr/>
+                                <a href="" class="btn btn-primary rounded-0">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow">
+                            <img src="img/img-1001.webp" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nemo laborum cumque unde iste tempore.</p>
+                                <hr/>
+                                <a href="" class="btn btn-primary rounded-0">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow">
+                            <img src="img/img-1001.webp" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nemo laborum cumque unde iste tempore.</p>
+                                <hr/>
+                                <a href="" class="btn btn-primary rounded-0">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card card-body pt-4 rounded-0">
+                        <i class="fa fa-4x fa-tractor text-center"></i>
+                        <p class="mt-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi facilis nobis et mollitia alias, veniam necessitatibus dicta unde doloribus enim ex! Eveniet quo veniam laudantium ut quam numquam sed alias dicta natus iusto, blanditiis, aperiam, quibusdam magni nam. Consequuntur dolore reiciendis quo iste, voluptas sit magni voluptatibus delectus aliquam excepturi?</p>
+                        <a href="" class=""></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card-body pt-4 rounded-0">
+                        <i class="fa fa-4x fa-tractor text-center"></i>
+                        <p class="mt-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi facilis nobis et mollitia alias, veniam necessitatibus dicta unde doloribus enim ex! Eveniet quo veniam laudantium ut quam numquam sed alias dicta natus iusto, blanditiis, aperiam, quibusdam magni nam. Consequuntur dolore reiciendis quo iste, voluptas sit magni voluptatibus delectus aliquam excepturi?</p>
+                        <a href="" class=""></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card-body pt-4 rounded-0">
+                        <i class="fa fa-4x fa-tractor text-center"></i>
+                        <p class="mt-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi facilis nobis et mollitia alias, veniam necessitatibus dicta unde doloribus enim ex! Eveniet quo veniam laudantium ut quam numquam sed alias dicta natus iusto, blanditiis, aperiam, quibusdam magni nam. Consequuntur dolore reiciendis quo iste, voluptas sit magni voluptatibus delectus aliquam excepturi?</p>
+                        <a href="" class=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card rounded-0">
+                        <img src="img/img-1001.webp" alt="">
+                        <div class="card-img-overlay">
+                            <h1 class="position-absolute bottom-0 start-0 text-white bg-dark w-100 mb-0 text-center py-4 bg-opacity-50">This is content</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card rounded-0">
+                        <img src="img/img-1001.webp" alt="">
+                        <div class="card-img-overlay">
+                            <h1 class="position-absolute bottom-0 start-0 text-white bg-dark w-100 mb-0 text-center py-4 bg-opacity-50">This is content</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="img/img-1001.webp" alt="" class="w-100 h-100"/>
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, consequatur? Soluta illum molestiae esse nulla.</p>
+                                    <a href="" class="btn btn-success">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, consequatur? Soluta illum molestiae esse nulla.</p>
+                                    <a href="" class="btn btn-success">Read More</a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <img src="img/img-1001.webp" alt="" class="w-100 h-100"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div cl class="row">
+                <div class="col-md-12">
+                    <div class="table-responsive">
+                    <table class="table table-bordered table-hover">
+                        <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Mobile</th>
+                            <th>Address</th>
+                            <th>Action</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Antick</td>
+                            <td>antick@gmail.com</td>
+                            <td>01624081051</td>
+                            <td>Dhaka</td>
+                            <td>
+                                <a href="" class="btn btn-success btn-sm">
+                                <i class="fa fa-edit"></i>
+                                </a>
+                                <a href="" class="btn btn-danger btn-sm">
+                                    <i class="fa fa-trash"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Antick</td>
+                            <td>antick@gmail.com</td>
+                            <td>01624081051</td>
+                            <td>Dhaka</td>
+                            <td>
+                                <a href="" class="btn btn-success btn-sm">
+                                <i class="fa fa-edit"></i>
+                                </a>
+                                <a href="" class="btn btn-danger btn-sm">
+                                    <i class="fa fa-trash"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Antick</td>
+                            <td>antick@gmail.com</td>
+                            <td>01624081051</td>
+                            <td>Dhaka</td>
+                            <td>
+                                <a href="" class="btn btn-success btn-sm">
+                                <i class="fa fa-edit"></i>
+                                </a>
+                                <a href="" class="btn btn-danger btn-sm">
+                                    <i class="fa fa-trash"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Antick</td>
+                            <td>antick@gmail.com</td>
+                            <td>01624081051</td>
+                            <td>Dhaka</td>
+                            <td>
+                                <a href="" class="btn btn-success btn-sm">
+                                <i class="fa fa-edit"></i>
+                                </a>
+                                <a href="" class="btn btn-danger btn-sm">
+                                    <i class="fa fa-trash"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Antick</td>
+                            <td>antick@gmail.com</td>
+                            <td>01624081051</td>
+                            <td>Dhaka</td>
+                            <td>
+                                <a href="" class="btn btn-success btn-sm">
+                                <i class="fa fa-edit"></i>
+                                </a>
+                                <a href="" class="btn btn-danger btn-sm">
+                                    <i class="fa fa-trash"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">Bootstrap Horizontal Form</div>
+                        <div class="card-body">
+
+                            <div class="row mb-3">
+                                <label for="fullName" class="col-md-3">Full Name</label>
+                                <div class="col-md-9">
+                                    <input type="text" maxlength="20" placeholder="Your Full Name" name="full-name" id="fullName" class="form-control form-control-sm"/>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="email" class="col-md-3">Email Address</label>
+                                <div class="col-md-9">
+                                    <input type="email" name="email" id="email" class="form-control"/>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="password" class="col-md-3">Password</label>
+                                <div class="col-md-9">
+                                    <input type="password" name="password" id="password" class="form-control"/>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="mobile" class="col-md-3">Mobile Number</label>
+                                <div class="col-md-9">
+                                    <input type="number" name="mobile" id="mobile" class="form-control"/>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="address" class="col-md-3">Address</label>
+                                <div class="col-md-9">
+                                    <textarea name="address" id="address" rows="4" class="form-control"></textarea>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="address" class="col-md-3">District Name</label>
+                                <div class="col-md-9">
+                                    <select class="form-control">
+                                        <option> -- Select District Name -- </option>
+                                        <optgroup label="Dhaka">
+                                            <option value=""> Dhaka </option>
+                                            <option value=""> Manikganj </option>
+                                            <option value=""> Gazipur </option>
+                                        </optgroup>
+                                        <optgroup label="Rajshahi">
+                                            <option value=""> Rajshahi </option>
+                                            <option value=""> Natore </option>
+                                            <option value=""> Bogra </option>
+                                        </optgroup>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label class="col-md-3">Gender Info</label>
+                                <div class="col-md-9">
+                                    <label><input type="radio" name="gender"/> Male </label>
+                                    <label><input type="radio" name="gender"/> Female </label>
+                                    <label><input type="radio" name="gender"/> Other </label>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="dateOfBirth" class="col-md-3">Date of birth</label>
+                                <div class="col-md-9">
+                                    <input type="date" name="date_of_birht" id="dateOfBirth" class="form-control"/>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="image" class="col-md-3">Image</label>
+                                <div class="col-md-9">
+                                    <input type="file" name="image" id="image" class="form-control"/>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="dateOfBirth" class="col-md-3">Agree</label>
+                                <div class="col-md-9">
+                                    <label><input type="checkbox" name="agree"/> I agree with all terms and conditions </label>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label class="col-md-3"></label>
+                                <div class="col-md-9">
+                                    <input type="submit" class="btn btn-outline-success w-100 rounded-0" value="Registration"/>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="accordion" id="myAccordion">
+                        <div class="card rounded-0">
+                            <div class="card-header bg-dark-subtle rounded-0">
+                                <button type="button" data-bs-toggle="collapse" data-bs-target="#contentOne" class="btn btn-light w-100 w-100 rounded-0">This is content one</button>
+                            </div>
+                            <div class="card-body p-0 show collapse" id="contentOne" data-bs-parent="#myAccordion">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque debitis ut omnis molestias deleniti voluptatibus id dolorum accusamus, ipsam consequuntur fugiat aliquam aperiam quidem repellendus? Qui similique deserunt autem provident? Repellendus maxime magni numquam suscipit nesciunt distinctio perspiciatis illum natus similique recusandae tenetur quo, necessitatibus ullam! Laboriosam vel possimus quas rem commodi. Necessitatibus tenetur commodi nobis placeat temporibus saepe quam ipsam pariatur, amet vitae aspernatur atque repellendus soluta sunt? Hic ipsam nostrum assumenda sunt, quia blanditiis! Nam odit rem laboriosam maiores distinctio quisquam omnis, sit suscipit impedit amet hic animi quis quidem beatae quaerat doloremque cupiditate alias velit sapiente magnam in aperiam nobis delectus? Unde quidem sequi expedita, molestias laboriosam numquam soluta labore modi perspiciatis facere id, corrupti illo tenetur fugiat suscipit voluptatem natus reiciendis similique aut adipisci asperiores, ratione deleniti fugit. Odio eaque recusandae quos earum modi quia dolores, enim nesciunt excepturi ad qui. Excepturi temporibus optio illum laudantium.</p>
+                            </div>
+                        </div>
+                        <div class="card rounded-0">
+                            <div class="card-header bg-dark-subtle rounded-0">
+                                <button type="button" data-bs-toggle="collapse" data-bs-target="#contenttwo" class="btn btn-light w-100 w-100 rounded-0">This is content two</button>
+                            </div>
+                            <div class="card-body p-0 collapse" id="contenttwo" data-bs-parent="#myAccordion">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, rerum? Pariatur quam quas beatae praesentium eveniet quos, cumque consectetur ut voluptate odio tempore modi ad, nostrum laborum officiis vitae est commodi illo doloremque, sint nisi mollitia! Sint quidem accusantium atque asperiores. Architecto velit aperiam veritatis ea cumque asperiores magni expedita eligendi quisquam ratione in odit voluptatem temporibus, dolorem aliquid ipsa nam totam sapiente harum facilis dolore tempora perferendis officia! Ipsa eius, veniam enim laudantium deserunt libero pariatur veritatis corrupti. Dicta asperiores obcaecati laboriosam earum provident, deserunt error iure repellendus excepturi autem quos sed aliquam eius distinctio debitis, voluptatum nulla cupiditate consequatur nobis ratione, porro repudiandae? Autem labore quas ullam alias ut praesentium quod voluptatibus maxime tenetur dolore? Neque architecto eius cupiditate fuga ratione corrupti officia? Vero veritatis eos dicta, eum, perspiciatis expedita aperiam ea quam consectetur eveniet qui dolor doloremque sint cumque distinctio culpa blanditiis. Maiores non culpa aperiam sint?</p>
+                            </div>
+                        </div>
+                        <div class="card rounded-0">
+                            <div class="card-header bg-dark-subtle rounded-0">
+                                <button type="button" data-bs-toggle="collapse" data-bs-target="#contentthree" class="btn btn-light w-100 w-100 rounded-0">This is content three</button>
+                            </div>
+                            <div class="card-body p-0 collapse" id="contentthree" data-bs-parent="#myAccordion">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, nisi qui neque, laborum aperiam corrupti quidem quaerat earum voluptates velit debitis? Sunt cum laboriosam praesentium iste laborum nihil cupiditate natus iusto? Quam doloremque, voluptate ab voluptates beatae nam quisquam earum numquam modi! In iste, a temporibus distinctio perspiciatis nisi quasi repudiandae vel, sequi eum facilis, quod incidunt vitae saepe atque. Dolore quo, maiores nemo ipsum aut neque sed nihil facilis corrupti itaque inventore rem unde incidunt hic voluptatibus. Minima ducimus eos fugiat id, voluptate, dolorem quasi blanditiis soluta delectus sunt, tempora voluptates autem cupiditate optio numquam. Aliquam doloribus tempora facere, numquam officiis rerum aliquid blanditiis non porro dolorum nulla sit repudiandae quibusdam, tenetur nostrum distinctio natus? Molestias velit ipsa quo dolores, voluptate maxime aut quis! Eaque corporis sint error consectetur laborum repellendus, neque perferendis, necessitatibus sit magnam similique dolorum minima maiores unde, voluptatum modi incidunt voluptas optio ipsum tenetur ducimus?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card card-body">
+                        <ul class="nav nav-tabs">
+                            <li><a href="#home" data-bs-toggle="tab" class="nav-link active">Home</a></li>
+                            <li><a href="#about" data-bs-toggle="tab" class="nav-link">About</a></li>
+                            <li><a href="#contact" data-bs-toggle="tab" class="nav-link">Contact</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active" id="home">
+                                <div class="card card-body rounded-0 border-top-0">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, magnam, cumque rerum accusamus sit possimus libero dicta, ratione nulla aut velit omnis? Facilis molestias dolores cumque excepturi optio dolore minus.</p>
+                                    <a href="" class="btn btn-outline-success">Read More...</a>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade show" id="about">
+                                <div class="card card-body rounded-0 border-top-0">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, magnam, cumque rerum accusamus sit possimus libero dicta, ratione nulla aut velit omnis? Facilis molestias dolores cumque excepturi optio dolore minus.</p>
+                                    <a href="" class="btn btn-outline-danger">Read More...</a>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade show" id="contact">
+                                <div class="card card-body rounded-0 border-top-0">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, magnam, cumque rerum accusamus sit possimus libero dicta, ratione nulla aut velit omnis? Facilis molestias dolores cumque excepturi optio dolore minus.</p>
+                                    <a href="" class="btn btn-outline-info">Read More...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card card-body">
+                        <ul class="nav nav-pills">
+                            <li><a href="#notice" data-bs-toggle="pill" class="nav-link active">Notice</a></li>
+                            <li><a href="#gallery" data-bs-toggle="pill" class="nav-link">Gallaery</a></li>
+                            <li><a href="#register" data-bs-toggle="pill" class="nav-link">Register</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active" id="notice">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sunt odio distinctio optio laboriosam, accusamus tempora voluptas, dolorem mollitia culpa corrupti similique magnam, iste molestiae fuga. Commodi adipisci impedit aspernatur?</p>
+                            </div>
+                            <div class="tab-pane fade" id="gallery">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis inventore pariatur at ea veniam expedita consequatur odit qui placeat. Dignissimos esse animi repellendus eos fuga id aliquam delectus facilis molestiae.</p>
+                            </div>
+                            <div class="tab-pane fade" id="register">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia atque repudiandae voluptate voluptates id quis reprehenderit sapiente maiores similique excepturi natus, rerum soluta saepe laudantium placeat quod itaque dicta eaque!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--- Login Modal start -->
+    <div class="modal fade" id="loginModal" data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    Ligin Form
+                    <button type="button" data-bs-dismiss="modal" class="btn-close"></button>
+                </div>
+                <div class="modal-body">
+                    <h1>is modal body</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus officiis voluptatem voluptate accusamus officia veniam beatae explicabo molestias facere ad! Placeat eveniet aliquid aspernatur repellat at necessitatibus qui, soluta magni minus tempora animi veniam incidunt maiores asperiores nemo. Possimus consequatur dignissimos temporibus nulla at sint reiciendis ullam perferendis. Neque, perspiciatis?</p>
+                </div>
+                <div class="modal-footer">This is modal footer</div>
+            </div>
+        </div>
+    </div>
+    <!--- login Modal end -->
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
